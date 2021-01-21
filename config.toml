@@ -1,4 +1,41 @@
 baseURL = "http://example.org/"
-languageCode = "zh-CN"
+languageCode = "zh"
+DefaultContentLanguage = "zh"
 title = "海边的清晏"
-theme = "eureka"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[params]
+title = "海边的清晏"
+theme = "anatole"
+author = "RioShi"
+description = "你来人间一趟 你要看看太阳"
+profilePicture = "images/profile.jpg"
+copyright = "2020-2021"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
