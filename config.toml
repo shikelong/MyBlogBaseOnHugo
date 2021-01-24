@@ -19,6 +19,8 @@ author = "RioShi"
 description = "你来人间一趟 你要看看太阳"
 profilePicture = "images/profile.jpg"
 copyright = "2020-2021"
+customCss = ["css/custom.css"]
+customJs = ["js/custom.js"]
 
 [menu]
 
@@ -39,3 +41,4 @@ copyright = "2020-2021"
   weight = 300
   identifier = "about"
   url = "/about/"
+
